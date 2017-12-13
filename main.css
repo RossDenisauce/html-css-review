@@ -1,0 +1,76 @@
+/* by element */
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #2C3852;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-family: 'Mukta', sans-serif;
+}
+
+span{
+  font-weight: bold;
+}
+
+#anotherSpan{
+  color: orange;
+  text-decoration: underline;
+}
+
+#container{
+  margin: 0 auto;
+  /*    the same as below, always goes top clockwise
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; */
+  max-width: 900px;
+}
+
+/* class */
+
+.block{
+  height: auto;
+  width: 50%;
+  float: left;
+}
+
+.left{
+  background-color: salmon;
+}
+.right{
+  background-color: green;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+nav ul li{
+  /* float: left; */
+  display: inline-block;
+}
+
+nav ul li a{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #C6DEE2;
+}
